@@ -29,7 +29,10 @@ The physical ribbon uses 0 <= u <= 2*pi with (u + 2*pi, v) identified with (u, -
 Ant body orientation is evaluated on a 4*pi cover, keeping the local frame continuous across the half-twist. The traced boundary is the single closed curve (u, W), for 0 <= u <= 4*pi.
 
 ## Website integration
-No public deployment has been made and the earlier files are unchanged. The pilot form still builds/downloads a brief locally; it does not send it to an inbox. No tracking, remote submission, stock photography or bundled font files have been added.
+The public preview is available at
+<https://slytie.github.io/improve-technologies-website/>. The pilot form still
+builds/downloads a brief locally; it does not send it to an inbox. No tracking,
+remote submission, stock photography or bundled font files have been added.
 
 ## Deployment
 The site is deployed automatically to GitHub Pages from the `main` branch. The
