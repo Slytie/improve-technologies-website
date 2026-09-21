@@ -1,0 +1,255 @@
+{
+  "checks": [
+    {
+      "check": "Approved copy unchanged: .hero-copy",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Approved copy unchanged: #opportunity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Approved copy unchanged: #approach",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Approved copy unchanged: #in-practice",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Approved copy unchanged: #pilots",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Approved copy unchanged: #researchView",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Approved copy unchanged: #pilotDialog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Approved copy unchanged: #caseDialog",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Approved copy unchanged: .site-footer",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Company/product names retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "WebGL scene initialized",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "No external resource requests",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "M\u00f6bius seam + normals continuous",
+      "passed": true,
+      "details": {
+        "closure": 8.881784197001252e-16,
+        "normal": 1.1102230246251565e-16,
+        "twist": 1.5543122344752192e-15
+      }
+    },
+    {
+      "check": "Analytic tangent matches numerical derivative",
+      "passed": true,
+      "details": 2.399080933912501e-10
+    },
+    {
+      "check": "Ants advance on surface",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Leg gait advances",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "All colony states finite",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "64 ants retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "No GL errors",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Landing pause stops simulation",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Landing resumes simulation",
+      "passed": true,
+      "details": {
+        "running": true,
+        "time": 3.416666666666658
+      }
+    },
+    {
+      "check": "Learn panel works",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Learn headline preserved",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Loop wraps to Hypothesize",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Experiment note opens",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Pilot brief builder opens",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "ResearchOS detail page works",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "ResearchOS copy intact",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Interactive viewer opens",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "No substitute marketing copy in viewer",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Fold preset activates single-edge trace",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Follow ant camera works",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Scene controls open",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Population updates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Lighting slider updates",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Reset restores defaults",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Viewer closes and returns focus",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "No page overflow 1024px",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "No page overflow 390px",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "No page overflow 360px",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Mobile menu works",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Mobile viewer fits",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Mobile ribbon not cropped",
+      "passed": true,
+      "details": {
+        "lo": [
+          -0.6920504215899002,
+          -0.3282488792037241
+        ],
+        "hi": [
+          0.9201910801438544,
+          0.23925093305744247
+        ]
+      }
+    },
+    {
+      "check": "Mobile settings visible",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "No runtime errors",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "Reduced motion starts paused",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "total": 46,
+  "passed": 46,
+  "failed": 0,
+  "browser": "Chromium WebGL2 via software rendering under Xvfb. Assets injected from local files; no network navigation.",
+  "originals_unchanged": true
+}
