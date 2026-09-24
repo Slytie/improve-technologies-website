@@ -1,4 +1,4 @@
-/* Improve Technologies / Möbius Colony
+/* Recurion / Möbius Colony
  * Self-contained WebGL2. No external libraries, fonts, textures or network requests.
  * Analytic surface locomotion, not a biological or general-purpose physics model.
  */
@@ -262,7 +262,7 @@ $('aboutBtn').onclick=()=>{$('about').showModal();};$('closeAbout').onclick=()=>
 $('count').oninput=e=>{state.count=+e.target.value;newAgents(state.count);updateOutputs();syncFollow();};
 $('speed').oninput=e=>{state.speed=+e.target.value;updateOutputs();};$('light').oninput=e=>{state.light=+e.target.value/100;updateOutputs();};$('stars').oninput=e=>{state.stars=+e.target.value/100;updateOutputs();};
 for(const key of ['trails','edge','drift','hero','wire'])$(key).onchange=e=>{state[key]=e.target.checked;if(key==='hero')document.body.classList.toggle('no-copy',!state.hero);};
-$('snapshot').onclick=()=>{render(0);canvas.toBlob(blob=>{if(!blob){toast('This browser could not save a frame.');return;}const a=document.createElement('a'),url=URL.createObjectURL(blob);a.href=url;a.download='Improve-Technologies-Mobius-'+String(Math.floor(world.t)).padStart(4,'0')+'.png';a.click();setTimeout(()=>URL.revokeObjectURL(url),1500);toast('Saved the scene without interface.');},'image/png');};
+$('snapshot').onclick=()=>{render(0);canvas.toBlob(blob=>{if(!blob){toast('This browser could not save a frame.');return;}const a=document.createElement('a'),url=URL.createObjectURL(blob);a.href=url;a.download='Recurion-Mobius-'+String(Math.floor(world.t)).padStart(4,'0')+'.png';a.click();setTimeout(()=>URL.revokeObjectURL(url),1500);toast('Saved the scene without interface.');},'image/png');};
 canvas.addEventListener('pointerdown',e=>{pointers.set(e.pointerId,[e.clientX,e.clientY]);canvas.setPointerCapture(e.pointerId);dragging=true;lastPointer=[e.clientX,e.clientY];if(pointers.size===2){const [a,b]=[...pointers.values()];pinchDistance=Math.hypot(a[0]-b[0],a[1]-b[1]);}});
 canvas.addEventListener('pointermove',e=>{if(!pointers.has(e.pointerId))return;const prev=pointers.get(e.pointerId);pointers.set(e.pointerId,[e.clientX,e.clientY]);if(pointers.size===2){const [a,b]=[...pointers.values()],pd=Math.hypot(a[0]-b[0],a[1]-b[1]);if(pinchDistance>0){if(state.follow)camera.followZoom=clamp(camera.followZoom*pinchDistance/pd,.35,4);else camera.targetDistance=clamp(camera.targetDistance*pinchDistance/pd,5,30);}pinchDistance=pd;}else if(!state.follow){camera.yaw-=(e.clientX-prev[0])*.005;camera.pitch=clamp(camera.pitch+(e.clientY-prev[1])*.005,-1.43,1.43);} });
 const release=e=>{pointers.delete(e.pointerId);dragging=pointers.size>0;pinchDistance=0;lastPointer=null;};canvas.addEventListener('pointerup',release);canvas.addEventListener('pointercancel',release);canvas.addEventListener('lostpointercapture',release);

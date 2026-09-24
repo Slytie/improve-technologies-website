@@ -1,4 +1,4 @@
-# Improve Technologies — restored copy / refined Möbius
+# Recurion — restored copy / refined Möbius
 
 ## Review
 Open **preview.html** in a current browser. This single file includes both approved website pages and the live WebGL2 simulation. No installation, account, CDN, fonts or internet connection is required. Use a browser with WebGL2 enabled.
@@ -6,7 +6,7 @@ Open **preview.html** in a current browser. This single file includes both appro
 The modular website is **index.html** + **research-os.html**, with **styles.css** and **script.js** alongside them. **simulation.html** is a standalone, fully self-contained scene; its editable source is in **simulation.js** and **simulation.css**.
 
 ## What changed
-- Restored the approved company copy from Improve_Technologies_Website.zip / Improve_Technologies_Preview.html. The headline, deck, ResearchOS detail page, research-step panels, evidence note, pilot form and footer remain intact.
+- Restored the approved company copy from the original website package. The headline, deck, ResearchOS detail page, research-step panels, evidence note, pilot form and footer remain intact.
 - Replaced the hero's old orbital drawing with the electronic-ants Möbius simulation, surrounded by near-black space. The lower content sections retain the previous ivory-and-sage treatment.
 - Broader opaque ribbon, a gently bent centerline, a smoothly concentrated half-twist, 34 longitudinal grooves, contrasting directional lighting and a depth-map self-shadow pass.
 - A deliberately chosen initial angle makes the half-twist visible without user interaction.
@@ -29,7 +29,7 @@ The physical ribbon uses 0 <= u <= 2*pi with (u + 2*pi, v) identified with (u, -
 Ant body orientation is evaluated on a 4*pi cover, keeping the local frame continuous across the half-twist. The traced boundary is the single closed curve (u, W), for 0 <= u <= 4*pi.
 
 ## Website integration
-The production site is available at <https://research.singularintelligence.net/>.
+The production site is available at <https://recurion.co/>.
 The GitHub Pages project URL remains available at
 <https://slytie.github.io/improve-technologies-website/>. The pilot form still
 builds/downloads a brief locally; it does not send it to an inbox. No tracking,

@@ -89,7 +89,7 @@
   function buildBrief() {
     const data = new FormData(form);
     const value = key => String(data.get(key) || '').trim();
-    return `IMPROVE TECHNOLOGIES — RESEARCH PILOT BRIEF\n\nName: ${value('name')}\nEmail: ${value('email')}\nTeam: ${value('team')}\nResearch area: ${value('area')}\nEvaluation: ${value('evaluation')}\n\nTHE IMPROVEMENT PROBLEM\n${value('problem')}\n\nPROPOSED NEXT STEP\nScope one measurable improvement problem, an evaluation and a bounded research budget.\n\nThis brief was created locally in the website review preview. It has not been submitted or sent.\n`;
+    return `RECURION — RESEARCH PILOT BRIEF\n\nName: ${value('name')}\nEmail: ${value('email')}\nTeam: ${value('team')}\nResearch area: ${value('area')}\nEvaluation: ${value('evaluation')}\n\nTHE IMPROVEMENT PROBLEM\n${value('problem')}\n\nPROPOSED NEXT STEP\nScope one measurable improvement problem, an evaluation and a bounded research budget.\n\nThis brief was created locally in the website review preview. It has not been submitted or sent.\n`;
   }
   form?.addEventListener('submit', event => {
     event.preventDefault();
@@ -98,7 +98,7 @@
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = 'Improve-Technologies-Research-Brief.txt';
+    link.download = 'Recurion-Research-Brief.txt';
     document.body.appendChild(link);
     link.click();
     link.remove();

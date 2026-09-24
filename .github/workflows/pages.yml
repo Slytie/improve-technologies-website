@@ -28,8 +28,8 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir -p _site/assets
-          cp index.html research-os.html styles.css script.js favicon.svg .nojekyll _site/
-          cp assets/improve-logo-mark.png _site/assets/
+          cp index.html research-os.html styles.css script.js .nojekyll _site/
+          cp assets/recurion-logo-mark.png _site/assets/
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
