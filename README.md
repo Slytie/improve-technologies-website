@@ -30,10 +30,10 @@ Ant body orientation is evaluated on a 4*pi cover, keeping the local frame conti
 
 ## Website integration
 The production site is available at <https://recurion.co/>.
-The GitHub Pages project URL remains available at
-<https://slytie.github.io/improve-technologies-website/>. The pilot form still
-builds/downloads a brief locally; it does not send it to an inbox. No tracking,
-remote submission, stock photography or bundled font files have been added.
+The GitHub Pages project URL redirects to the production domain. The pilot form
+still builds/downloads a brief locally; it does not send it to an inbox. No
+tracking, remote submission, stock photography or bundled font files have been
+added.
 
 ## Deployment
 The site is deployed automatically to GitHub Pages from the `main` branch. The
