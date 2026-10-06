@@ -36,3 +36,7 @@ body.home-route .site-footer .footer-links a:hover,
 body.home-route .site-footer .footer-links button:hover {
   color: #fff;
 }
+
+body.home-route .contact h2 {
+  color: #fff;
+}
