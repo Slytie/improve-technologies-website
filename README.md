@@ -3,7 +3,7 @@
 ## Review
 Open **preview.html** in a current browser. This single file includes both approved website pages and the live WebGL2 simulation. No installation, account, CDN, fonts or internet connection is required. Use a browser with WebGL2 enabled.
 
-The modular website is **index.html** + **research-os.html**, with **styles.css** and **script.js** alongside them. **simulation.html** is a standalone, fully self-contained scene; its editable source is in **simulation.js** and **simulation.css**.
+The modular website is **index.html** + **research-os.html**, with **styles.css** and **script.js** alongside them. **login.html** is the self-contained product demo and simulated login experience. **simulation.html** is a standalone, fully self-contained scene; its editable source is in **simulation.js** and **simulation.css**.
 
 ## What changed
 - Restored the approved company copy from the original website package. The headline, deck, ResearchOS detail page, research-step panels, evidence note, pilot form and footer remain intact.
@@ -37,8 +37,8 @@ added.
 
 ## Deployment
 The site is deployed automatically to GitHub Pages from the `main` branch. The
-deployment workflow publishes only the two website pages, their shared CSS and
-JavaScript, the favicon, and the logo mark. Review captures and editable source
+deployment workflow publishes the two marketing pages, the self-contained
+product demo/login page, their shared CSS and JavaScript, the favicon, and the logo mark. Review captures and editable source
 files remain in the repository but are not included in the public Pages artifact.
 
 ## Checks
