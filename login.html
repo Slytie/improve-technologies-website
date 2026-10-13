@@ -2601,8 +2601,10 @@ function cueWideMath(){
  });
 }
 function queueMathHints(){if(!mathHintFrame)mathHintFrame=requestAnimationFrame(cueWideMath);}
-new MutationObserver(queueMathHints).observe(roots.atlas,{childList:true,subtree:true});
-hostWindow.addEventListener('resize',queueMathHints);queueMathHints();
+if(roots.atlas){
+ new MutationObserver(queueMathHints).observe(roots.atlas,{childList:true,subtree:true});
+ hostWindow.addEventListener('resize',queueMathHints);queueMathHints();
+}
 hostWindow.RecurionPreview={version:'3.0-iteration-atlas-overlay',issues,view:()=>active,navigate:p=>show(p,true)};
 })();</script><script id="df-onboarding-script">
 /* No API calls, persistence, repository access or compute. All setup state is page-local. */
